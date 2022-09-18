@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-family: 'Inter', sans-serif;
+	background-color: #f2f2f2;
+}
+a {
+	font-family: 'Inter', sans-serif;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+/*Generic Styling Elements Starts Here*/
+h1, h2, h3, h4, h5, h6 {
+	color: #888888;
+}
+.green-bg {
+	background-color: #28945E!important;
+	color: #fff!important;
+}
+.white-bg {
+	background-color: #FFF!important;
+	color: #28945E!important;
+}
+
+/*Header Styling Starts Here*/
+header {
+	border-bottom: 1px solid #28945E;
+	background-color: #EFEFEF;
+}
+.navbar {
+	padding: 0;
+}
+.custom-brand {
+	margin: 0;
+}
+.custom-brand img {
+	width: 80px;
+}
+.custom-navbar-nav li {
+	margin: 0 5px;
+}
+.custom-navbar-nav li:last-child {
+	margin-right: 0px;
+}
+.custom-navbar-nav li a {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #000000;
+	transition: .5s ease;
+}
+.custom-navbar-nav li a:hover, .custom-navbar-nav li.active a {
+	color: #28945E!important;
+}
+.navbar-toggler {
+    color: #000000!important;
+    border-color: transparent;
+    font-weight: 300;
+    transition: .5s ease;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
+.navbar-toggler>.close {
+    display:block;
+}
+/*Header Styling Ends Here*/
+/*Breaking News Styling Starts Here*/
+.navigation-box {
+    top: .4rem;
+    right: .8rem;
+    width: 2rem;
+    position: absolute;
+    color: #fff;
+}
+.breaking-news-box {
+	border-radius: 5px;
+}
+.breaking-caret {
+	background-color: #fff;
+	color: #28945E;
+}
+#carouselbreaking .carousel-inner .carousel-item a {
+	color: #fff!important;
+}
+/*Breaking News Styling Ends Here*/
+/*News Section Styling Starts Here*/
+.b-0 {
+    bottom: 0;
+}
+.bg-shadow {
+    background: rgba(76, 76, 76, 0);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
+    background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
+.h3 {
+	font-size: 24px!important;
+}
+.h5 {
+	font-size: 18px!important;
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*News Section Styling Ends Here*/
+
+/*News Category Styling Starts*/
+.news-categories-section {
+	padding-bottom: 80px;
+}
+.custom-card {
+	margin-bottom: 20px;
+}
+.custom-card .card-header {
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #28945E;
+	color: #fff;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.custom-card ul li:hover {
+	background-color: rgba(40,148,94,.2);
+}
+.custom-card ul li small {
+	font-size: 10px;
+}
+.custom-card ul li a {
+	font-size: 13px;
+	font-weight: 500;
+	color: #000;
+}
+.custom-card ul li a:hover {
+	color: #28945E;
+}
+.news-category-sidebar-container iframe {
+	border-radius: 5px;
+}
+/*News Category Styling Ends*/
+
+/*Footer Section Styling Starts*/
+footer {
+	padding: 20px 0;
+	padding-bottom: 10px;
+	background-color: #28945E;
+}
+.footer-content p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+.footer-content ul li {
+	margin-left: 10px;
+}
+.footer-content ul li a {
+	color: #fff;
+	font-size: 14px;
+	transition: .5s ease;
+}
+.footer-content ul li a:hover, .footer-content ul li.active a {
+	opacity: .7;
+}
+/*Footer Section Styling Ends*/

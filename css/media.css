@@ -1,0 +1,64 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 419.98px) {
+
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 420px) and  (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.carousel-inner .image-wrapper img {
+		height: 290px;
+	}
+	.zoom img {
+	    height: 141px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.custom-navbar-nav li {
+		margin: 0 5px;
+	}
+	.custom-navbar-nav li a {
+		font-size: 13px;
+	}
+	.carousel-inner .image-wrapper img {
+		height: 395px;
+	}
+	.zoom img {
+	    height: 193px;
+	}
+	.custom-card ul li a {
+		font-size: 12px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.carousel-inner .image-wrapper img {
+		height: 470px;
+	}
+	.zoom img {
+	    height: 230px;
+	}
+}
+@media (min-width: 768px){
+    .breaking-caret:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-left: 15px solid #FFF;
+        border-bottom: 20px solid transparent;
+        position: absolute;
+        right: -15px;
+        top: 0;
+    }
+}
