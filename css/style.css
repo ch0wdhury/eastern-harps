@@ -75,64 +75,10 @@ header {
     display:block;
 }
 /*Header Styling Ends Here*/
-/*Breaking News Styling Starts Here*/
-.navigation-box {
-    top: .4rem;
-    right: .8rem;
-    width: 2rem;
-    position: absolute;
-    color: #fff;
-}
-.breaking-news-box {
-	border-radius: 5px;
-}
-.breaking-caret {
-	background-color: #fff;
-	color: #28945E;
-}
-#carouselbreaking .carousel-inner .carousel-item a {
-	color: #fff!important;
-}
-/*Breaking News Styling Ends Here*/
-/*News Section Styling Starts Here*/
-.b-0 {
-    bottom: 0;
-}
-.bg-shadow {
-    background: rgba(76, 76, 76, 0);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
-    background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
-}
-.top-indicator {
-    right: 0;
-    top: 1rem;
-    bottom: inherit;
-    left: inherit;
-    margin-right: 1rem;
-}
-.h3 {
-	font-size: 24px!important;
-}
-.h5 {
-	font-size: 18px!important;
-}
-.overflow {
-    position: relative;
-    overflow: hidden;
-}
-.zoom img {
-    transition: all 0.2s linear;
-}
-.zoom:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-/*News Section Styling Ends Here*/
 
 /*News Category Styling Starts*/
 .news-categories-section {
-	padding-bottom: 80px;
+	padding: 50px 0;
 }
 .custom-card {
 	margin-bottom: 20px;
@@ -146,23 +92,29 @@ header {
 .list-group-item {
     position: relative;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.125);
 }
 .custom-card ul li:hover {
 	background-color: rgba(40,148,94,.2);
 }
-.custom-card ul li small {
-	font-size: 10px;
+.custom-card ul li small, .custom-table small {
+	font-size: 12px;
 }
 .custom-card ul li a {
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #000;
 }
 .custom-card ul li a:hover {
 	color: #28945E;
+}
+.custom-table th {
+	color: #28945E;
+}
+.custom-table th, .custom-table td {
+	font-size: 14px;
 }
 .news-category-sidebar-container iframe {
 	border-radius: 5px;
