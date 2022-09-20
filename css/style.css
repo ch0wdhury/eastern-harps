@@ -29,7 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #FFF!important;
 	color: #28945E!important;
 }
-
+.green-text {
+	color: #28945E!important;
+	font-weight: 700;
+	text-transform: uppercase;
+}
 /*Header Styling Starts Here*/
 header {
 	border-bottom: 1px solid #28945E;
@@ -115,6 +119,15 @@ header {
 }
 .custom-table th, .custom-table td {
 	font-size: 14px;
+}
+.team-row td {
+	width: 33%;
+	font-weight: 700;
+}
+.venue-row td {
+	padding: 0;
+	font-size: 14px;
+	font-weight: 500;
 }
 .news-category-sidebar-container iframe {
 	border-radius: 5px;
