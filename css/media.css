@@ -1,10 +1,14 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 419.98px) {
-
+	.result-row td {
+		font-size: 14px;
+	}
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 420px) and  (max-width: 575.98px) {
-
+	.result-row td {
+		font-size: 14px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -129,6 +129,10 @@ header {
 	font-size: 14px;
 	font-weight: 500;
 }
+.result-row td {
+	width: 25%;
+	font-weight: 700;
+}
 .news-category-sidebar-container iframe {
 	border-radius: 5px;
 }
