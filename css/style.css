@@ -281,6 +281,15 @@ header {
 	width: 60px;
 }
 /*Committee Member Styling Ends Here*/
+/*Committee Member Styling Starts Here*/
+.fundraising-container {
+    padding: 40px 0;
+}
+.fundraising-container p {
+    padding: 0 40px;
+    text-align: justify;
+}
+/*Committee Member Styling Ends Here*/
 
 /*Footer Section Styling Starts*/
 footer {
