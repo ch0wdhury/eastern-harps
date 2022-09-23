@@ -341,6 +341,9 @@ header {
 .baguetteBox-button {
     background-color: transparent !important;
 }
+.news-table td:first-child {
+	width: 20%;
+}
 /*Image Gallery Styling Here*/
 
 /*Footer Section Styling Starts*/
